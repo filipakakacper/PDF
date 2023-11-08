@@ -5,7 +5,7 @@ const doc = new pdfDoc({ size: "B5", margin: 20});
 
 // Metadane
 doc.info['Title'] = 'Dokument PDF z przykładem';
-doc.info['Author'] = 'Jan Horodecki';
+doc.info['Author'] = 'Kacper Filipiak';
 
 doc.pipe(fs.createWriteStream("dokument.pdf"));
 
